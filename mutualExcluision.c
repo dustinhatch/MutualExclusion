@@ -1,3 +1,8 @@
+/* 
+This program creates two threads using mutual exclusion. 
+The first thread counts up to 10 and once finished the second thread counts down to 0. 
+*/
+
 #include <pthread.h>
 #include <stdio.h>
 #include <unistd.h>
